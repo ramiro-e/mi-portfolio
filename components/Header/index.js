@@ -69,8 +69,8 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             >
               {!isBlog ? (
                 <div className="grid grid-cols-1">
-                  <Button onClick={handleWorkScroll}>Work</Button>
-                  <Button onClick={handleAboutScroll}>About</Button>
+                  <Button onClick={handleWorkScroll}>Proyectos</Button>
+                  <Button onClick={handleAboutScroll}>Sobre Mi</Button>
                   {showBlog && (
                     <Button onClick={() => router.push("/blog")}>Blog</Button>
                   )}
@@ -80,20 +80,20 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                         window.open("mailto:hello@chetanverma.com")
                       }
                     >
-                      Resume
+                      Curriculum
                     </Button>
                   )}
 
                   <Button
                     onClick={() => window.open("mailto:hello@chetanverma.com")}
                   >
-                    Contact
+                    Contacto
                   </Button>
                 </div>
               ) : (
                 <div className="grid grid-cols-1">
                   <Button onClick={() => router.push("/")} classes="first:ml-1">
-                    Home
+                    Portfolio
                   </Button>
                   {showBlog && (
                     <Button onClick={() => router.push("/blog")}>Blog</Button>
@@ -103,14 +103,14 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                       onClick={() => router.push("/resume")}
                       classes="first:ml-1"
                     >
-                      Resume
+                      Curriculum
                     </Button>
                   )}
 
                   <Button
                     onClick={() => window.open("mailto:hello@chetanverma.com")}
                   >
-                    Contact
+                    Contacto
                   </Button>
                 </div>
               )}
@@ -131,8 +131,8 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
         </h1>
         {!isBlog ? (
           <div className="flex">
-            <Button onClick={handleWorkScroll}>Work</Button>
-            <Button onClick={handleAboutScroll}>About</Button>
+            <Button onClick={handleWorkScroll}>Proyectos</Button>
+            <Button onClick={handleAboutScroll}>Sobre Mi</Button>
             {showBlog && (
               <Button onClick={() => router.push("/blog")}>Blog</Button>
             )}
@@ -141,12 +141,12 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 onClick={() => router.push("/resume")}
                 classes="first:ml-1"
               >
-                Resume
+                Curriculum
               </Button>
             )}
 
             <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
-              Contact
+              Contacto
             </Button>
             {mounted && theme && data.darkMode && (
               <Button
@@ -161,7 +161,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
           </div>
         ) : (
           <div className="flex">
-            <Button onClick={() => router.push("/")}>Home</Button>
+            <Button onClick={() => router.push("/")}>Portfolio</Button>
             {showBlog && (
               <Button onClick={() => router.push("/blog")}>Blog</Button>
             )}
@@ -170,12 +170,12 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 onClick={() => router.push("/resume")}
                 classes="first:ml-1"
               >
-                Resume
+                Curriculum
               </Button>
             )}
 
             <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
-              Contact
+              Contacto
             </Button>
 
             {mounted && theme && data.darkMode && (

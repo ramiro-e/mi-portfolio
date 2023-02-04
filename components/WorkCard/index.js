@@ -1,27 +1,71 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { useTheme } from "next-themes";
 
-const WorkCard = ({ img, name, description, onClick }) => {
+
+const WorkCard = ({ img, name, description, technologies, onClick }) => {
+  const { theme } = useTheme();
+  const [mounted, setMounted] = useState();
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  let stopMovie = (e) => {
+    e.target.pause();
+    console.log('off');
+  }
+  
+  let playMovie = (e) => {
+    e.target.play();
+    console.log('on');
+  }
+
   return (
     <div
-      className="overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link"
+      className={`overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link rounded-3xl cursor-pointer 
+      ${
+        theme === "dark"
+          ? "hover:bg-slate-600 bg-slate-800 text-white"
+          : "hover:bg-slate-100 bg-slate-50"
+      } hover:scale-105 transition-all ease-out duration-300`}
       onClick={onClick}
     >
       <div
-        className="relative rounded-lg overflow-hidden transition-all ease-out duration-300 h-48 mob:h-auto"
-        style={{ height: "600px" }}
+        className="relative rounded-lg overflow-hidden h-48 mob:h-auto"
+        
       >
-        <img
+        <video
           alt={name}
-          className="h-full w-full object-cover hover:scale-110 transition-all ease-out duration-300"
+          className="h-full w-full object-cover"
+          style={{width: "640px"}}
           src={img}
-        ></img>
+          muted={true}
+          controls={false}
+          onMouseOver={playMovie}
+          onMouseOut={stopMovie}          
+          loop={true}
+        ></video>
       </div>
       <h1 className="mt-5 text-3xl font-medium">
         {name ? name : "Project Name"}
       </h1>
-      <h2 className="text-xl opacity-50">
+      <h2 className="text-xl opacity-50 pb-3">
         {description ? description : "Description"}
       </h2>
+      <div className="flex flex-wrap">
+      {technologies.map(({name, image}, index) => (
+          <div
+            className={`flex items-center p-1 px-2 mob:p-2 m-1 rounded-lg ${
+              mounted && theme === "dark" ? "bg-slate-700" : "bg-slate-200"
+            } link`}
+            key={index}
+          >
+            <img style={{width:"30px"}} className="pr-2" src={image}></img>
+            <h2 className="text-md leading-none">{name}</h2>
+          </div>
+      ))}
+
+      </div>
     </div>
   );
 };
