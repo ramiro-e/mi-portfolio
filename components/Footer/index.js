@@ -2,33 +2,35 @@ import React from "react";
 import Socials from "../Socials";
 import Link from "next/link";
 import Button from "../Button";
+import { useTheme } from "next-themes";
+
 
 const Footer = ({}) => {
+  const { theme } = useTheme();
+
   return (
     <>
-      <div className="mt-5 laptop:mt-40 p-2 laptop:p-0">
+      <div className="my-5 laptop:mt-40 p-2 laptop:p-0">
         <div>
-          <h1 className="text-2xl text-bold">Contact.</h1>
-          <div className="mt-10">
-            <h1 className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl text-bold">
-              LET&apos;S WORK
-            </h1>
-            <h1 className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl text-bold">
-              TOGETHER
-            </h1>
-            <Button type="primary">Schedule a call</Button>
-            <div className="mt-10">
-              <Socials />
-            </div>
+          <h1 className="text-2xl text-bold text-2xl">Contactame</h1>
+          <div className="mt-4 flex">
+            <button key={1} onClick={() => window.open("https://wa.me/+541158928151")} className={`tablet:text-base p-1 laptop:p-3 m-1 laptop:m-2 rounded-lg flex items-center transition-all ease-out duration-300 ${
+        theme === "dark"
+          ? "hover:bg-slate-600 text-white"
+          : "hover:bg-slate-100"
+      } hover:scale-105 active:scale-100  tablet:first:ml-0 link`}>
+              <img src={"/images/techlogos/whatsapp.png"} style={{height: "50px"}} className="pr-2"></img><div className="pt-1 text-xl">{"Whatsapp"}</div>
+            </button>
+            <button key={2} onClick={() => window.open("mailto:ramiroestevez96@gmail.com")} className={`tablet:text-base p-1 laptop:p-3 m-1 laptop:m-2 rounded-lg flex items-center transition-all ease-out duration-300 ${
+        theme === "dark"
+          ? "hover:bg-slate-600 text-white"
+          : "hover:bg-slate-100"
+      } hover:scale-105 active:scale-100  tablet:first:ml-0 link`}>
+              <img src={"/images/techlogos/gmail.png"} style={{height: "50px"}} className="pr-2"></img><div className="pt-1 text-xl">{"Email"}</div>
+            </button>
           </div>
         </div>
       </div>
-      <h1 className="text-sm text-bold mt-2 laptop:mt-10 p-2 laptop:p-0">
-        Made With ❤ by{" "}
-        <Link href="http://www.chetanverma.com">
-          <a className="underline underline-offset-1">Chetan Verma</a>
-        </Link>
-      </h1>
     </>
   );
 };
