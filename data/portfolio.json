@@ -1,1 +1,212 @@
-{"name":"Chetan","headerTaglineOne":"Hello 👋","headerTaglineTwo":"I'm Chetan Verma - curious","headerTaglineThree":"designer and devloper","headerTaglineFour":" based in New Delhi, India.","showCursor":true,"showBlog":true,"darkMode":true,"showResume":true,"socials":[{"id":"1","title":"Github","link":"https://github.com/chetanverma16"},{"id":"2","title":"LinkedIn","link":"https://www.linkedin.com/in/chetanverma7/"},{"id":"3","title":"Twitter","link":"https://twitter.com/realchetanverma"},{"id":"4","title":"Blog","link":"https://blog.chetanverma.com/"},{"id":"5","title":"Email","link":"mailto:hello@chetanverma.com"}],"projects":[{"id":"1","title":"Project One Test","description":"Web Design","imageSrc":"https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"2","title":"Project Two","description":"Web Development","imageSrc":"https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"3","title":"Project Three","description":"Design","imageSrc":"https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"4","title":"Project Four","description":"Marketing","imageSrc":"https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"5","title":"Project Five","description":"Development","imageSrc":"https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"6","title":"Project Six","description":"Design & Development","imageSrc":"https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"}],"services":[{"id":"1","title":"Art Direction","description":"We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."},{"id":"2","title":"Branding","description":"We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."},{"id":"3","title":"Web Design","description":"We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."},{"id":"4","title":"3D Design","description":"We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."}],"aboutpara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.","resume":{"tagline":"👋  I'm a software engineer, product designer.","description":"I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.","experiences":[{"id":"1","dates":"March 2022 - Present","type":"Full Time","position":"Frontend Engineer at X","bullets":"Bullet One, Bullet Two"},{"id":"d495c23b-4f65-479a-9b8a-cfbc1c089725","dates":"July 2020 - March 2022","type":"Full Time","position":"Frontend Engineer at X","bullets":"Worked on the frontend of a React application, Worked on the frontend of a React application"}],"education":{"universityName":"University X","universityDate":"2016-2020","universityPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"},"languages":["Javascript","HTML5","CSS","Python","Go"],"frameworks":["React","Typescript","NodeJs"],"others":["Figma","AdobeXD","AWS"]}}
+{
+    "name":"Mi portafolio",
+    "headerTaglineOne":"Hola 👋 soy Ramiro Estevez",
+    "headerTaglineTwo":"Desarrollador Javascript",
+    "headerTaglineThree":"",
+    "headerTaglineFour":"",
+    "description":"Soy un desarrollador junior enfocado en MERN stack aunque explorando otros lenguajes y framworks que capten mi interes, si necesitas un desarrollador experimentado pricipalmente en frameworks de JavaScript conta conmigo!",
+    "showCursor":false,
+    "showBlog":false,
+    "darkMode":true,
+    "showResume":false,
+    "socials":[
+        {
+            "id":"1",
+            "title":"Github",
+            "link":"https://github.com/ramiro-e",
+            "image":"/images/techlogos/github.png"
+        },{
+            "id":"2",
+            "title":"LinkedIn",
+            "link":"https://www.linkedin.com/in/ramiro-estevez/",
+            "image":"/images/techlogos/linkedin.png"
+        },{
+            "id":"3",
+            "title":"Twitter",
+            "link":"https://twitter.com/ramiro_e96",
+            "image":"/images/techlogos/twitter.png"
+        },{
+            "id":"4",
+            "title":"Whatsapp",
+            "link":"https://wa.me/+541158928151",
+            "image":"/images/techlogos/whatsapp.png"
+        },{
+            "id":"5",
+            "title":"Email",
+            "link":"mailto:ramiroestevez96@gmail.com",
+            "image":"/images/techlogos/gmail.png"
+        }
+    ],
+    "projects":[
+        {
+            "id":"1",
+            "title":"Vigilancia Argentina",
+            "description":"Ecommerce del rubro de la videovigilancia y seguridad apuntado a empresas y distribuidores.",
+            "imageSrc":"videos/projects/vigilancia-argentina.mp4",
+            "technologies":[
+                {"name":"HTML","image":"/images/techlogos/html.png"},
+                {"name":"Bootstrap", "image":"/images/techlogos/bootstrap.png"},
+                {"name":"JavaScript","image":"/images/techlogos/javascript.png"},
+                {"name":"NodeJs","image":"/images/techlogos/node.png"},
+                {"name":"MySQL","image":"/images/techlogos/mysql.png"},
+                {"name":"MercadoPago","image":"/images/techlogos/mercadopago.png"}
+            ],
+            "url":"https://github.com/ramiro-e/Vigilancia-Argentina"
+        },{
+            "id":"2",
+            "title":"ONG Somos Mas",
+            "description":"Pagina web para ONG con panel para administrar contenido, responder emails, modificar permisos, etc.",
+            "imageSrc":"videos/projects/ong-somos-mas.mp4",
+            "technologies":[
+                {"name":"React","image":"/images/techlogos/react.png"},
+                {"name":"Redux","image":"/images/techlogos/redux.png"},
+                {"name":"CSS", "image":"/images/techlogos/css.png"},
+                {"name":"JavaScript","image":"/images/techlogos/javascript.png"},
+                {"name":"NodeJs","image":"/images/techlogos/node.png"},
+                {"name":"MySQL","image":"/images/techlogos/mysql.png"},
+                {"name":"Jest","image":"/images/techlogos/jest.png"},
+                {"name":"AWS","image":"/images/techlogos/aws.png"},
+                {"name":"JWT","image":"/images/techlogos/jwt.png"},
+                {"name":"SendGrid","image":"/images/techlogos/sendgrid.png"}
+            ],
+            "url":"https://github.com/ramiro-e/ONG-somos-mas.git"
+        },{
+            "id":"3",
+            "title":"Administrador de gastos",
+            "description":"Una webapp para manejar presupuestos con soporte de usuario y multiples billeteras.",
+            "imageSrc":"videos/projects/budget-manager.mp4",
+            "technologies":[
+                {"name":"React","image":"/images/techlogos/react.png"},
+                {"name":"Bootstrap", "image":"/images/techlogos/bootstrap.png"},
+                {"name":"JavaScript","image":"/images/techlogos/javascript.png"},
+                {"name":"NodeJs","image":"/images/techlogos/node.png"},
+                {"name":"MySQL","image":"/images/techlogos/mysql.png"},
+                {"name":"JWT","image":"/images/techlogos/jwt.png"}
+            ],
+            "url":"https://github.com/ramiro-e/Budget-manager"
+        },{
+            "id":"4",
+            "title":"Covid 19 Live Dashboard",
+            "description":"Un panel de monitoreo de casos del SARS-CoV-2 al rededor del mundo, junto con analisis y canales de comunicacion oficiales",
+            "imageSrc":"videos/projects/covid-19-live-dashboard.mp4",
+            "technologies":[
+                {"name":"React","image":"/images/techlogos/react.png"},
+                {"name":"Bootstrap", "image":"/images/techlogos/bootstrap.png"},
+                {"name":"JavaScript","image":"/images/techlogos/javascript.png"}
+            ],
+            "url":"https://github.com/ramiro-e/Covid-19-live-dashboard"
+        },{
+            "id":"5",
+            "title":"Javascript FrontEnd Validation",
+            "description":"Pequeño proyecto para practicar Javascript, validacion de formularios y modificación de DOM así como llamadas asíncronas usando Fetch API.",
+            "imageSrc":"videos/projects/javascript-frontend-validation.mp4",
+            "technologies":[
+                {"name":"HTML","image":"/images/techlogos/html.png"},
+                {"name":"CSS","image":"/images/techlogos/css.png"},
+                {"name":"JavaScript","image":"/images/techlogos/javascript.png"},
+                {"name":"NodeJs","image":"/images/techlogos/node.png"}
+            ],
+            "url":"https://github.com/ramiro-e/Javascript-FrontEnd-Validation"
+        },{
+            "id":"6",
+            "title":"KARU",
+            "description":"Pequeño ecommerce para un familiar ceramista, integracion con whatsapp bussiness API.",
+            "imageSrc":"videos/projects/karu.mp4",
+            "technologies":[
+                {"name":"HTML","image":"/images/techlogos/html.png"},
+                {"name":"CSS","image":"/images/techlogos/css.png"},
+                {"name":"JavaScript","image":"/images/techlogos/javascript.png"},
+                {"name":"NodeJs","image":"/images/techlogos/node.png"}
+            ],
+            "url":"https://github.com/ramiro-e/KARU"
+        }
+        
+        
+
+    ],
+    "technologies":[
+        {
+            "name":"HTML",
+            "image":"/images/techlogos/html.png"
+            },{
+            "name":"CSS",
+            "image":"/images/techlogos/css.png"
+            },{
+            "name":"JavaScript",
+            "image":"/images/techlogos/javascript.png"
+            },{
+            "name":"TypeScript",
+            "image":"/images/techlogos/typescript.png"
+            },{
+            "name":"Python",
+            "image":"/images/techlogos/python.png"
+            },{
+            "name":"Bootstrap",
+            "image":"/images/techlogos/bootstrap.png"
+            },{
+            "name":"Tailwind",
+            "image":"/images/techlogos/tailwind.png"
+            },{
+            "name":"React",
+            "image":"/images/techlogos/react.png"
+            },{
+            "name":"Redux",
+            "image":"/images/techlogos/redux.png"
+            },{
+            "name":"NextJs",
+            "image":"/images/techlogos/next.png"
+            },{
+            "name":"NodeJs",
+            "image":"/images/techlogos/node.png"
+            },{    
+            "name":"MySQL",
+            "image":"/images/techlogos/mysql.png"
+            },{
+            "name":"Jest",
+            "image":"/images/techlogos/jest.png"
+            },{
+            "name":"AWS",
+            "image":"/images/techlogos/aws.png"
+            },{
+            "name":"MercadoPago",
+            "image":"/images/techlogos/mercadopago.png"
+            },{
+            "name":"JWT",
+            "image":"/images/techlogos/jwt.png"
+            },{
+            "name":"SendGrid",
+            "image":"/images/techlogos/sendgrid.png"
+
+                        
+        }
+    ],
+    "aboutpara":"Ademas de habilidades tecnicas cuento con las habilidades comunicativas para trabajar en equipo. En bootcamp alkemy fui elegido como mejor compañero por mi equipo y realmente creo que sobresalgo por mi voluntad de disponer de mi para ayudar a mis compañeros y avanzar los objetivos del proyecto. Capaz de aprender nuevas habilidades por mi mismo, resolver problemas y pensar estrategicamente para facilitar el desarrollo con otras personas",
+    
+    "resume":{
+        "tagline":"👋  Soy desarrollador web y diseñador industrial",
+        "description":"I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
+        "experiences":[
+            {
+                "id":"1",
+                "dates":"March 2022 - Present",
+                "type":"Full Time",
+                "position":"Frontend Engineer at X",
+                "bullets":"Bullet One, Bullet Two"
+            },{
+                "id":"d495c23b-4f65-479a-9b8a-cfbc1c089725",
+                "dates":"July 2020 - March 2022",
+                "type":"Full Time",
+                "position":"Frontend Engineer at X",
+                "bullets":"Worked on the frontend of a React application, Worked on the frontend of a React application"
+            }
+        ],
+        "education":{
+            "universityName":"University X",
+            "universityDate":"2016-2020",
+            "universityPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+        },
+        "languages":["Javascript", "HTML5", "CSS", "Python", "Go"],
+        "frameworks":["React","Typescript","NodeJs"],
+        "others":["Figma","AdobeXD","AWS"]
+    }
+}
