@@ -1,10 +1,10 @@
 {
     "name":"Mi portafolio",
     "headerTaglineOne":"Hola 👋 soy Ramiro Estevez",
-    "headerTaglineTwo":"Desarrollador Javascript",
+    "headerTaglineTwo":"Desarrollador JavaScript",
     "headerTaglineThree":"",
     "headerTaglineFour":"",
-    "description":"Soy un desarrollador junior enfocado en MERN stack aunque explorando otros lenguajes y framworks que capten mi interes, si necesitas un desarrollador experimentado pricipalmente en frameworks de JavaScript conta conmigo!",
+    "description":"Soy un desarrollador web de 26 años de Buenos Aires enfocado en frameworks de JavaScript aunque explorando otros lenguajes y framworks que capten mi interes.",
     "showCursor":false,
     "showBlog":false,
     "darkMode":true,
@@ -28,7 +28,7 @@
         },{
             "id":"4",
             "title":"Whatsapp",
-            "link":"https://wa.me/+541158928151",
+            "link":"https://api.whatsapp.com/send?phone=541158928151",
             "image":"/images/techlogos/whatsapp.png"
         },{
             "id":"5",
@@ -180,8 +180,8 @@
                         
         }
     ],
-    "aboutpara":"Ademas de habilidades tecnicas cuento con las habilidades comunicativas para trabajar en equipo. En bootcamp alkemy fui elegido como mejor compañero por mi equipo y realmente creo que sobresalgo por mi voluntad de disponer de mi para ayudar a mis compañeros y avanzar los objetivos del proyecto. Capaz de aprender nuevas habilidades por mi mismo, resolver problemas y pensar estrategicamente para facilitar el desarrollo con otras personas",
-    
+    "aboutpara":"Ademas de habilidades tecnicas soy una persona colaborativa y de actitud positiva con la voluntad de disponer de mi para ayudar a mis compañeros y avanzar los objetivos del proyecto. Capaz de aprender nuevas habilidades por mi mismo, resolver problemas y pensar estrategicamente para facilitar el desarrollo con otras personas.",
+
     "resume":{
         "tagline":"👋  Soy desarrollador web y diseñador industrial",
         "description":"I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
