@@ -12,12 +12,10 @@ const WorkCard = ({ img, name, description, technologies, onClick }) => {
 
   let stopMovie = (e) => {
     e.target.pause();
-    console.log('off');
   }
   
   let playMovie = (e) => {
     e.target.play();
-    console.log('on');
   }
 
   return (

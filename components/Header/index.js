@@ -11,6 +11,11 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
+  function changeTheme() {
+    setTheme(theme === "dark" ? "light" : "dark")
+    localStorage.setItem("theme", theme === "dark" ? "light" : "dark")
+  }
+
   const { name, showBlog, showResume } = data;
 
   useEffect(() => {
@@ -34,7 +39,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 {data.darkMode && (
                   <Button
                     onClick={() =>
-                      setTheme(theme === "dark" ? "light" : "dark")
+                      changeTheme()
                     }
                   >
                     <img
@@ -150,7 +155,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             </Button>
             {mounted && theme && data.darkMode && (
               <Button
-                onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+                onClick={() => changeTheme()}
               >
                 <img
                   className="h-6"
@@ -180,7 +185,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
 
             {mounted && theme && data.darkMode && (
               <Button
-                onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+                onClick={() => changeTheme()}
               >
                 <img
                   className="h-6"
