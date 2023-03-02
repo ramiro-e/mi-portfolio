@@ -45,8 +45,13 @@ const Resume = () => {
             <div
               className={`w-full bg-gray-50 dark:bg-slate-800 laptop:max-w-4xl p-5 mob:p-5 desktop:p-20 rounded-lg shadow-sm`}
             >
-              <h1 className="text-3xl font-bold">{name}</h1>
-              <h2 className="text-xl mt-5">{resume.tagline}</h2>
+              <div className="flex justify-between">
+                <div>
+                  <h1 className="text-3xl font-bold">{name}</h1>
+                  <h2 className="text-xl mt-5">{resume.tagline}</h2>
+                </div>
+                <img className="rounded-full w-20 h-20" src="/images/foto-curriculum-cuadrada-2.jpg"></img>
+              </div>
               <h2 className="text-xl mt-5 opacity-50">
                 {resume.description}
               </h2>
