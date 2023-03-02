@@ -57,12 +57,13 @@ const Resume = () => {
                 <h1 className="text-2xl font-bold">Proyectos</h1>
 
                 {resume.projects.map(
-                  ({ name, description, features, lessons }, index) => (
+                  ({ name, description, github ,features, lessons }, index) => (
                     <ProjectResume
                       key={index}
                       index={index}
                       name={name}
                       description={description}
+                      github={github}
                       features={features}
                       lessons={lessons}
                     ></ProjectResume>

@@ -1,16 +1,16 @@
 import React, {useState} from "react";
 
-const ProjectResume = ({ index, name, description, github ,features, lessons }) => {
+const ProjectResume = ({ name, description, github ,features, lessons }) => {
 
   const [collapse, setCollapse] = useState(false)
-
+  console.log(github)
   return (
     <div className="mt-2">
       <div>
         <div className="flex justify-between items-center">
           <div className="flex items-center">
             <h2 className="text-xl mt-2 mb-1">{name}</h2>
-            <button className="ml-3 p-1 pr-1.5 bg-slate-100 bg-slate-100 dark:bg-black rounded-full flex h-6" onClick={()=>{window.open(github)}}><img src="images/techlogos/github.png" className="w-4 h-4 mr-1"></img> <div className="h-4 text-sm leading-tight">Github</div> </button>
+            <button className="ml-3 p-1 pr-1.5 mt-0.5 bg-slate-100 bg-slate-100 dark:bg-black rounded-full flex h-6" onClick={()=>{window.open(github)}}><img src="images/techlogos/github.png" className="w-4 h-4 mr-1"></img> <div className="h-4 text-sm leading-tight">Github</div> </button>
           </div>
           <button className="h-7 rounded-lg p-1 px-2 transition-all ease-out duration-300 hover:bg-slate-100 dark:hover:bg-slate-600 " onClick={()=>{setCollapse(!collapse)}}>Ver Mas</button>
 
