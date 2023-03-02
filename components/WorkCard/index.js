@@ -20,12 +20,7 @@ const WorkCard = ({ img, name, description, technologies, onClick }) => {
 
   return (
     <div
-      className={`overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link rounded-3xl cursor-pointer 
-      ${
-        theme === "dark"
-          ? "hover:bg-slate-600 bg-slate-800 text-white"
-          : "hover:bg-slate-100 bg-slate-50"
-      } hover:scale-105 transition-all ease-out duration-300`}
+      className={`overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link rounded-3xl cursor-pointer hover:bg-slate-100 bg-slate-50 dark:hover:bg-slate-600 dark:bg-slate-800 dark:text-white hover:scale-105 transition-all ease-out duration-300`}
       onClick={onClick}
     >
       <div
@@ -53,9 +48,7 @@ const WorkCard = ({ img, name, description, technologies, onClick }) => {
       <div className="flex flex-wrap">
       {technologies.map(({name, image}, index) => (
           <div
-            className={`flex items-center p-1 px-2 mob:p-2 m-1 rounded-lg ${
-              mounted && theme === "dark" ? "bg-slate-700" : "bg-slate-200"
-            } link`}
+            className={`flex items-center p-1 px-2 mob:p-2 m-1 rounded-lg bg-slate-200 dark:bg-slate-700 link`}
             key={index}
           >
             <img style={{width:"30px"}} className="pr-2" src={image}></img>

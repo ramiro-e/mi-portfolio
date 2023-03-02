@@ -13,7 +13,6 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
 
   function changeTheme() {
     setTheme(theme === "dark" ? "light" : "dark")
-    localStorage.setItem("theme", theme === "dark" ? "light" : "dark")
   }
 
   const { name, showBlog, showResume } = data;
@@ -68,9 +67,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               </div>
             </div>
             <Popover.Panel
-              className={`absolute right-0 z-10 w-11/12 p-4 ${
-                theme === "dark" ? "bg-slate-800" : "bg-white"
-              } shadow-md rounded-md`}
+              className={`absolute right-0 z-10 w-11/12 p-4 white dark:bg-slate-800 shadow-md rounded-md`}
             >
               {!isBlog ? (
                 <div className="grid grid-cols-1">
@@ -82,7 +79,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   {showResume && (
                     <Button
                       onClick={() =>
-                        window.open("mailto:ramiroestevez96@gmail.com")
+                        router.push("/curriculum")
                       }
                     >
                       Curriculum
@@ -105,7 +102,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   )}
                   {showResume && (
                     <Button
-                      onClick={() => router.push("/resume")}
+                      onClick={() => router.push("/curriculum")}
                       classes="first:ml-1"
                     >
                       Curriculum
@@ -124,9 +121,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
         )}
       </Popover>
       <div
-        className={`mt-10 hidden flex-row items-center justify-between sticky ${
-          theme === "light" && "bg-white"
-        } dark:text-white top-0 z-10 tablet:flex`}
+        className={`mt-10 hidden flex-row items-center justify-between sticky opacity-90 bg-white dark:bg-slate-900 dark:text-white top-0 z-10 tablet:flex`}
       >
         <h1
           onClick={() => router.push("/")}
@@ -143,7 +138,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             )}
             {showResume && (
               <Button
-                onClick={() => router.push("/resume")}
+                onClick={() => router.push("/curriculum")}
                 classes="first:ml-1"
               >
                 Curriculum

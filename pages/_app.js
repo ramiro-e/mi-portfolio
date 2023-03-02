@@ -7,19 +7,17 @@ const App = ({ Component, pageProps }) => {
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      if(!theme){
-        if(localStorage.getItem(theme)){
-          setTheme(localStorage.getItem(theme))
-        }else{
-          setTheme("light")
-        }
-      }
+      setTimeout(function(){
+        console.log("Hola Mundo");
+        setTheme(theme === "dark" ? "light" : "dark")
+    }, 2000);
+
     }
   }, []);
 
   
   return (
-    <ThemeProvider defaultTheme = 'light'>
+    <ThemeProvider defaultTheme = 'light' attribute="class">
       <Component {...pageProps} />
     </ThemeProvider>
   );
